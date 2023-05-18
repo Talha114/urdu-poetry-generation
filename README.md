@@ -1,6 +1,6 @@
-# Poetry Generation in Roman Urdu
+# Poetry Generation in Urdu
 
-This project is aimed at generating poetry in Roman Urdu using n-gram language modeling and the spaCy pipeline for text processing. The generated poetry will consist of a ghazal containing seven stanzas, each containing two verses where each verse consists of 6-8 words.
+This project is aimed at generating poetry in Urdu using n-gram language modeling and the spaCy pipeline for text processing. The generated poetry will consist of a ghazal containing seven stanzas, each containing two verses where each verse consists of 6-8 words.
 
 ## Assignment Task
 The task is to generate a ghazal using different n-gram models. The algorithm for generating the poetry is as follows:
@@ -31,4 +31,4 @@ The next step is to produce a backward Bigram model that models the generation o
 Finally, a BidirectionalBigramModel should be built that combines the forward and backward models. Both the BackwardBigramModel and BidirectionalBigramModel should take the same input and produce the same style of output as the BigramModel. The output of the BidirectionalBigramModel should be compared with the Trigram model. 
 
 ## Conclusion
-This project provides an opportunity to explore language modeling and text generation techniques using the spaCy pipeline. It also allows for the generation of beautiful poetry in Roman Urdu.
+This project provides an opportunity to explore language modeling and text generation techniques using the spaCy pipeline. It also allows for the generation of beautiful poetry in Urdu.
